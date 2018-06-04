@@ -1,0 +1,28 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimmosQuadros/webcrawler.git"
+  },
+  "keywords": [
+    "webcrawler"
+  ],
+  "author": "Timm Rasmussen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimmosQuadros/webcrawler/issues"
+  },
+  "homepage": "https://github.com/TimmosQuadros/webcrawler#readme",
+  "dependencies": {
+    "crawler": "^1.1.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4",
+    "request": "^2.87.0"
+  }
+}
