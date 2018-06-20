@@ -34,7 +34,7 @@ var c = new Crawler({
 
 // Queue URLs with custom callbacks & parameters
 c.queue([{
-    uri: 'https://www.boligsiden.dk/resultat/08782b28be4444ae85b39b976d6e3b46?p=1&s=12&sd=false&d=1&i=60',
+    uri: 'https://www.boligsiden.dk/',
     // The global callback won't be called
     callback: function (error, res, done) {
         if(error){
