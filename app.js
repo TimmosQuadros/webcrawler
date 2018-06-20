@@ -45,7 +45,7 @@ c.queue([{
             //console.log('Grabbed', res.body.length, 'bytes');
             var button = $("button:contains('Søg')");
             //console.log(pages);
-            console.log(button.html());
+            console.log(button);
         }
         done();
     }
