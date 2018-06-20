@@ -40,10 +40,11 @@ c.queue([{
         if(error){
             console.log(error);
         }else{
-            var $ = res.$;
+            //var $ = res.$;
             //console.log('Grabbed', res.body.length, 'bytes');
-            var pages = $("span:contains('FIND ME')");
-            console.log(pages);
+            //var pages = $("span:contains('FIND ME')");
+            //console.log(pages);
+            console.log(res.body);
         }
         done();
     }
